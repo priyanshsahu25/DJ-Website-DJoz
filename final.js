@@ -1,5 +1,5 @@
  
-   var deadline = 'Dec 15 2020 18:40:18 GMT-0400';
+   var deadline = 'Dec 15 2021 18:40:18 GMT-0400';
 function time_remaining(endtime){
   var t = Date.parse(endtime) - Date.parse(new Date());
   var seconds = Math.floor( (t/1000) % 60 );
